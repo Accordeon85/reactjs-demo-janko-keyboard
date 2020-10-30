@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+[class^="key"]:hover {
+  fill: cornflowerblue;
+}
+
+/* .key:active {
+  fill: gold;
+} */
+
+[class^="key"]:active {
+  fill: gold;
+}
+
+.leftMainTitle {
+  font-size:1.4vw;
+}
+
+.leftMenu {
+  width: 15%;
+  background-color: darkgoldenrod;
+  height:100%;
+  position: fixed;
+  text-align: left;
+  padding-left: 2em;
+}
+
+.labelTitle {
+  color: white;
+  padding-top: 0.3em;
+  padding-bottom: 0.1em;
+  font-size:1vw;
+}
+
+/* .dropdownroot {
+  padding-left: 20%;
+} */
+
+.Dropdown-control.dropdown {
+  max-width: 60%;
+  border-radius: 3px;
+  font-size:1.1vw;
+}
+
+.Dropdown-menu {
+  max-width: 60%;
+}
+
+.react-numeric-input input.numericInput {
+  width:5em;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.svg-container {
+  display: inline-block;
+  width: 80%;
+  padding-left: 15%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+}
