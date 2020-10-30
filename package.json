@@ -2,10 +2,12 @@
   "name": "isomorphic-keyboards",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://accordeon85.github.io/reactjs-demo-janko-keyboard",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-dropdown": "^1.9.0",
@@ -14,6 +16,8 @@
     "tone": "^14.7.58"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
