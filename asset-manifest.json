@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactjs-demo-janko-keyboard/static/css/main.8b200624.chunk.css",
+    "main.js": "/reactjs-demo-janko-keyboard/static/js/main.7cc1a9f9.chunk.js",
+    "main.js.map": "/reactjs-demo-janko-keyboard/static/js/main.7cc1a9f9.chunk.js.map",
+    "runtime-main.js": "/reactjs-demo-janko-keyboard/static/js/runtime-main.155ca39d.js",
+    "runtime-main.js.map": "/reactjs-demo-janko-keyboard/static/js/runtime-main.155ca39d.js.map",
+    "static/css/2.fe708519.chunk.css": "/reactjs-demo-janko-keyboard/static/css/2.fe708519.chunk.css",
+    "static/js/2.13664cc1.chunk.js": "/reactjs-demo-janko-keyboard/static/js/2.13664cc1.chunk.js",
+    "static/js/2.13664cc1.chunk.js.map": "/reactjs-demo-janko-keyboard/static/js/2.13664cc1.chunk.js.map",
+    "index.html": "/reactjs-demo-janko-keyboard/index.html",
+    "static/css/2.fe708519.chunk.css.map": "/reactjs-demo-janko-keyboard/static/css/2.fe708519.chunk.css.map",
+    "static/css/main.8b200624.chunk.css.map": "/reactjs-demo-janko-keyboard/static/css/main.8b200624.chunk.css.map",
+    "static/js/2.13664cc1.chunk.js.LICENSE.txt": "/reactjs-demo-janko-keyboard/static/js/2.13664cc1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.155ca39d.js",
+    "static/css/2.fe708519.chunk.css",
+    "static/js/2.13664cc1.chunk.js",
+    "static/css/main.8b200624.chunk.css",
+    "static/js/main.7cc1a9f9.chunk.js"
+  ]
+}
