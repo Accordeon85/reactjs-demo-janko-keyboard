@@ -25,9 +25,6 @@ const JankoContainer = (props) => {
   const jankoNotes = [].concat(...octaves.map(o => JankoStructure(props.notes,o, doubles)))
   let [keyboardSize, updatekeyboardSize] = useState(window.innerWidth/3.5)
 
-  console.log(window.innerHeight)
-  console.log(window.innerWidth)
-
   const getKeyBoard = () => {
     if (keyShape === keyShapes.round) {
       return <>
