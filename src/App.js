@@ -112,16 +112,16 @@ function App() {
               onChange={handleConfig} placeholder="Select an option" />
           </div>
           <div className='labelTitle'>{localizations['selectNbOctaves'][selectedLanguage.value]}</div>
-            <NumericInput min={1} max={3} value={nbOctaves} onChange={updateNbOctaves} className="numericInput" />
+            <NumericInput min={1} max={3} value={nbOctaves} onChange={updateNbOctaves} className="numericInput" strict />
           </div>
           <div>
             <div className='labelTitle'>{localizations['selectNbDoubles'][selectedLanguage.value]}</div>
-            <NumericInput min={0} max={2} value={nbDoubles} onChange={updateNbDoubles} className="numericInput" />
+            <NumericInput min={0} max={2} value={nbDoubles} onChange={updateNbDoubles} className="numericInput" strict />
           </div>
           <div>
           <h3 className='labelTitle'>{localizations['cpKeyboardOptionsTitle'][selectedLanguage.value]}</h3>
           <div className='labelTitle'>{localizations['selectCPKeyboardOctave'][selectedLanguage.value]}</div>
-          <NumericInput min={1} max={4} value={currentCPKeyboardOctave} onChange={updateCPKeyboardOctave} className="numericInput" />
+          <NumericInput min={1} max={4} value={currentCPKeyboardOctave} onChange={updateCPKeyboardOctave} className="numericInput" strict />
           <div>
             <div className='labelTitle'>{localizations['selectCPKeyboardType'][selectedLanguage.value]}</div>
             <Dropdown options={CPKeyboardTypes} value={selectCPKeyboardType}
