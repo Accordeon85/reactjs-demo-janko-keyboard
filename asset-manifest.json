@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactjs-demo-janko-keyboard/static/css/main.8b200624.chunk.css",
-    "main.js": "/reactjs-demo-janko-keyboard/static/js/main.20a75919.chunk.js",
-    "main.js.map": "/reactjs-demo-janko-keyboard/static/js/main.20a75919.chunk.js.map",
+    "main.js": "/reactjs-demo-janko-keyboard/static/js/main.c92d9a25.chunk.js",
+    "main.js.map": "/reactjs-demo-janko-keyboard/static/js/main.c92d9a25.chunk.js.map",
     "runtime-main.js": "/reactjs-demo-janko-keyboard/static/js/runtime-main.155ca39d.js",
     "runtime-main.js.map": "/reactjs-demo-janko-keyboard/static/js/runtime-main.155ca39d.js.map",
     "static/css/2.fe708519.chunk.css": "/reactjs-demo-janko-keyboard/static/css/2.fe708519.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.fe708519.chunk.css",
     "static/js/2.4ebf4dc8.chunk.js",
     "static/css/main.8b200624.chunk.css",
-    "static/js/main.20a75919.chunk.js"
+    "static/js/main.c92d9a25.chunk.js"
   ]
 }
